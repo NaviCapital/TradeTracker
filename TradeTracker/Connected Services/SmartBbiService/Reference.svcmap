@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0f623110-f105-4768-958f-07d351b8dbb0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://www.smartbbi.com:44810/ServerWebServiceSM?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServerWebServiceSM.xsd" MetadataType="Schema" ID="f74d7f4c-78ba-4111-a413-dda68f405ed5" SourceId="1" SourceUrl="https://www.smartbbi.com:44810/ServerWebServiceSM?xsd=xsd1" />
+    <MetadataFile FileName="ServerWebServiceSM1.xsd" MetadataType="Schema" ID="2d5be9c6-b04d-4a13-affd-28816c4f1526" SourceId="1" SourceUrl="https://www.smartbbi.com:44810/ServerWebServiceSM?xsd=xsd2" />
+    <MetadataFile FileName="WIwServiceSmBradSmBrad_SSL.wsdl" MetadataType="Wsdl" ID="a260af86-4def-44f6-aecd-db2118ad93bd" SourceId="1" SourceUrl="https://www.smartbbi.com:44810/ServerWebServiceSM?wsdl" />
+    <MetadataFile FileName="ServerWebServiceSM2.xsd" MetadataType="Schema" ID="0d24dc0f-f11e-49b0-b980-25994db176e5" SourceId="1" SourceUrl="https://www.smartbbi.com:44810/ServerWebServiceSM?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WebServiceCommon.Modelos.H" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WebServiceCommon.Modelos.H" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfNegocio">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Negocio" nillable="true" type="tns:Negocio" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfNegocio" nillable="true" type="tns:ArrayOfNegocio" />
+  <xs:complexType name="Negocio">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CodigoCliente" type="xs:long" />
+      <xs:element minOccurs="0" name="CodigoContraparte" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CodigoISIN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CodigoNegociacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Commodity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DMA" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataPregao" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="HoraMinutoNegocio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="xs:long" />
+      <xs:element minOccurs="0" name="NUM_SEQ_RPSS_PARC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Natureza" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumNegocioCodigoNeg" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PrecoExercicioOpcao" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PrecoNegocio" type="xs:decimal" />
+      <xs:element minOccurs="0" name="QuantidadeNegocio" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TipoMercado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VencimentoContrato" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="VlDolarDr1" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Negocio" nillable="true" type="tns:Negocio" />
+</xs:schema>
